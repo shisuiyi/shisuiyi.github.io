@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于 - 师不语的个人博客</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="stylesheet" href="/styles/main.css">
+    
+</head>
+<body>
+    <!-- 抽屉菜单 -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <div class="drawer" id="drawer">
+        <div class="drawer-header">
+            <div class="drawer-title">师不语的个人博客</div>
+            <button class="drawer-close" id="drawerClose">
+                <span class="material-icons-round">close</span>
+            </button>
+        </div>
+        <nav class="drawer-nav">
+            <a href="/" class="drawer-item ">
+                <span class="drawer-icon material-icons-round">home</span>
+                <span class="drawer-text">首页</span>
+            </a>
+            <a href="/about.html" class="drawer-item active">
+                <span class="drawer-icon material-icons-round">person</span>
+                <span class="drawer-text">关于</span>
+            </a>
+            <a href="/tags.html" class="drawer-item ">
+                <span class="drawer-icon material-icons-round">local_offer</span>
+                <span class="drawer-text">标签</span>
+            </a>
+        </nav>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <button class="menu-button" id="menuButton">
+                    <span class="material-icons-round">menu</span>
+                </button>
+                <div class="header-text">
+                    <h1><a href="/">师不语的个人博客</a></h1>
+                    <p>一个简洁的静态博客</p>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="material-icons-round light-icon">light_mode</span>
+                    <span class="material-icons-round dark-icon">dark_mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        
+<div class="container">
+    <div class="about-layout">
+        <!-- 个人介绍卡片 -->
+        <aside class="profile-card">
+            <div class="profile-header">
+                <img src="/images/avatar/avatar.jpg" 
+                     alt="头像" 
+                     class="profile-avatar">
+                <h2>师不语</h2>
+                <p class="profile-bio">热爱编程，热爱生活。专注于Python、Web开发和人工智能。分享技术经验和个人感悟。</p>
+            </div>
+            <div class="profile-stats">
+                <a href="/" class="stat-item">
+                    <span class="stat-value">3</span>
+                    <span class="stat-label">文章</span>
+                </a>
+                <a href="/tags.html" class="stat-item">
+                    <span class="stat-value">4</span>
+                    <span class="stat-label">标签</span>
+                </a>
+            </div>
+            <div class="profile-social">
+                
+                <a href="https://github.com/shisuiyi" target="_blank" class="social-link">
+                    <span class="material-icons-round">code</span>
+                    <span>Github</span>
+                </a>
+                
+                <a href="mailto:your.email@example.com" target="_blank" class="social-link">
+                    <span class="material-icons-round">email</span>
+                    <span>Email</span>
+                </a>
+                
+                <a href="/feed.xml" target="_blank" class="social-link">
+                    <span class="material-icons-round">rss_feed</span>
+                    <span>Rss</span>
+                </a>
+                
+            </div>
+        </aside>
+
+        <!-- 关于页内容 -->
+        <article class="post about-content">
+            <div class="post-content">
+                <h2 id="_1">个人简介<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>你好，我是师不语，一名热爱技术的开发者。我专注于以下领域：</p>
+<ul>
+<li>Python 后端开发</li>
+<li>Web 前端开发</li>
+<li>人工智能应用</li>
+<li>技术写作分享</li>
+</ul>
+<h2 id="_2">技术栈<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">后端开发<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Python | Django | Flask</li>
+<li>Node.js | Express</li>
+<li>MySQL | MongoDB</li>
+<li>Redis | Elasticsearch</li>
+</ul>
+<h3 id="_4">前端开发<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>HTML5 | CSS3 | JavaScript</li>
+<li>Vue.js | React</li>
+<li>Webpack | Vite</li>
+<li>TailwindCSS</li>
+</ul>
+<h3 id="_5">开发工具<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Git | GitHub</li>
+<li>Docker | Kubernetes</li>
+<li>Linux | Nginx</li>
+<li>VS Code | PyCharm</li>
+</ul>
+<h2 id="_6">项目经历<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="_7">个人博客系统<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>基于 Python 的静态博客生成器</li>
+<li>支持 Markdown 写作</li>
+<li>自动代码高亮</li>
+<li>响应式设计</li>
+<li>深色模式支持</li>
+</ul>
+<h3 id="_8">其他开源项目<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="项目链接">项目名称</a>：项目描述</li>
+<li><a href="项目链接">项目名称</a>：项目描述</li>
+</ul>
+<h2 id="_9">学习分享<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>我坚持通过博客分享技术经验和学习心得，主要包括：</p>
+<ol>
+<li>编程技术教程</li>
+<li>项目开发实践</li>
+<li>技术选型分析</li>
+<li>学习方法总结</li>
+</ol>
+<h2 id="_10">联系方式<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<ul>
+<li>GitHub: <a href="https://github.com/shisuiyi">shisuiyi</a></li>
+<li>Email: your.email@example.com</li>
+<li>RSS: <a href="/feed.xml">订阅博客更新</a></li>
+</ul>
+<h2 id="_11">写在最后<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>感谢访问我的博客。如果你对我的文章或项目有任何建议，欢迎通过以上方式与我联系。</p>
+<blockquote>
+<p>编程不只是代码，更是一种思维方式。 </p>
+</blockquote>
+            </div>
+        </article>
+    </div>
+</div>
+
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>关于博客</h3>
+                    <p>一个简洁的静态博客，专注于分享技术文章和个人见解。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速导航</h3>
+                    <ul class="footer-nav">
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/about.html">关于</a></li>
+                        <li><a href="/tags.html">标签</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://github.com/shisuiyi" target="_blank" rel="noopener">
+                                <span class="material-icons-round">code</span>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:your.email@example.com">
+                                <span class="material-icons-round">email</span>
+                                <span>Email</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/feed.xml" target="_blank" rel="noopener">
+                                <span class="material-icons-round">rss_feed</span>
+                                <span>RSS</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 师不语 - Built with Static Blog Generator</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 移动端导航栏 -->
+    <nav class="mobile-nav">
+        <a href="/" class="mobile-nav-item ">
+            <span class="material-icons-round mobile-nav-icon">home</span>
+            <span>首页</span>
+        </a>
+        <a href="/tags.html" class="mobile-nav-item ">
+            <span class="material-icons-round mobile-nav-icon">local_offer</span>
+            <span>标签</span>
+        </a>
+        <a href="/about.html" class="mobile-nav-item active">
+            <span class="material-icons-round mobile-nav-icon">person</span>
+            <span>关于</span>
+        </a>
+    </nav>
+
+    
+    <script>
+        // 抽屉菜单功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const drawer = document.getElementById('drawer');
+            const drawerOverlay = document.getElementById('drawerOverlay');
+            const menuButton = document.getElementById('menuButton');
+            const drawerClose = document.getElementById('drawerClose');
+
+            function openDrawer() {
+                drawer.classList.add('open');
+                drawerOverlay.classList.add('visible');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeDrawer() {
+                drawer.classList.remove('open');
+                drawerOverlay.classList.remove('visible');
+                document.body.style.overflow = '';
+            }
+
+            menuButton.addEventListener('click', openDrawer);
+            drawerClose.addEventListener('click', closeDrawer);
+            drawerOverlay.addEventListener('click', closeDrawer);
+        });
+
+        // 主题切换功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            // 从 localStorage 获取保存的主题
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else if (prefersDark.matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+            
+            // 更新按钮状态
+            function updateThemeToggle() {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                themeToggle.classList.toggle('dark', currentTheme === 'dark');
+            }
+            
+            updateThemeToggle();
+            
+            // 切换主题
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateThemeToggle();
+            });
+            
+            // 监听系统主题变化
+            prefersDark.addListener((e) => {
+                if (!localStorage.getItem('theme')) {
+                    document.documentElement.setAttribute(
+                        'data-theme',
+                        e.matches ? 'dark' : 'light'
+                    );
+                    updateThemeToggle();
+                }
+            });
+        });
+
+        // 代码块处理
+        document.querySelectorAll('.highlight').forEach(block => {
+            // 获取代码语言
+            const codeElement = block.querySelector('code');
+            let lang = 'text';
+            
+            // 尝试从代码元素的类名中获取语言
+            if (codeElement) {
+                // 调试日志
+                console.log('Code element:', codeElement);
+                console.log('Code classes:', codeElement.className);
+                
+                // 首先检查代码块的父元素是否有语言标识
+                const parentClasses = block.parentElement?.className.split(' ') || [];
+                for (const cls of parentClasses) {
+                    if (cls.startsWith('language-')) {
+                        lang = cls.replace('language-', '');
+                        break;
+                    }
+                }
+                
+                // 如果没找到，检查代码元素自身的类名
+                if (lang === 'text') {
+                    const classes = codeElement.className.split(' ');
+                    for (const cls of classes) {
+                        if (cls.startsWith('language-')) {
+                            lang = cls.replace('language-', '');
+                            break;
+                        }
+                    }
+                }
+                
+                // 如果还是没找到，尝试从代码内容判断
+                if (lang === 'text') {
+                    const content = codeElement.textContent.trim();
+
+                    // C++特征检测（优先）
+                    if (
+                        content.includes('#include') ||
+                        content.includes('using namespace') ||
+                        content.includes('std::') ||
+                        content.includes(' class ') ||
+                        content.includes(' struct ') ||
+                        content.includes('template<') ||
+                        content.includes('//') ||
+                        content.includes('/*')
+                    ) {
+                        lang = 'cpp';
+                    }
+                    // Python特征检测
+                    else if (
+                        content.includes('def ') ||
+                        content.includes('print(') ||
+                        content.includes('import ') ||
+                        /^#\s.*$/m.test(content) ||
+                        content.includes('class ') ||
+                        content.includes('return ') ||
+                        content.includes('True') ||
+                        content.includes('False') ||
+                        content.includes('None')
+                    ) {
+                        lang = 'python';
+                    }
+                    // 添加其他语言检测...
+                }
+            }
+            
+            // 设置语言标识
+            block.setAttribute('data-lang', lang);
+            
+            // 创建复制按钮
+            const button = document.createElement('button');
+            button.className = 'copy-button';
+            button.textContent = '';
+            
+            // 添加复制功能
+            button.addEventListener('click', async () => {
+                const code = block.querySelector('pre').textContent;
+                try {
+                    await navigator.clipboard.writeText(code);
+                    button.classList.add('copied');
+                    setTimeout(() => {
+                        button.classList.remove('copied');
+                    }, 2000);
+                } catch (err) {
+                    console.error('Failed to copy:', err);
+                }
+            });
+            
+            // 将按钮添加到代码块
+            block.appendChild(button);
+        });
+
+        // 搜索功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const searchType = document.getElementById('searchType');
+            const searchResults = document.getElementById('searchResults');
+            const postsList = document.getElementById('postsList');
+            
+            if (!searchInput) return;
+
+            // 所有文章数据
+            const posts = [
+                
+                {
+                    title: "C++编程入门：变量与基本数据类型",
+                    content: "变量与基本数据类型 变量：数据的容器¶ 在C++编程中，变量是我们存储和操作数据的基本工具。你可以把变量想象成一个贴有标签的盒子，里面可以存放各种类型的数据。 1.1 变量的声明与初始化 在C++中，使用变量前需要先声明它，告诉编译器变量的名称和类型： 基础语法示例¶ 1. 变量和数据类型¶ int age; // 声明一个整型变量age double price; // 声明一个双精度浮点型变量price char grade; // 声明一个字符型变量grade bool isPassed; // 声明一个布尔型变量isPassed 变量声明后可以立即初始化（赋予初始值）： int score = 100; // 声明并初始化 double temperature = 36.5; // 声明并初始化 char initial = &#39;A&#39;; // 字符使用单引号 std::string name = &#34;Alice&#34;; // 字符串使用双引号 C++11引入了更简洁的初始化方式： int count{10}; // 使用花括号初始化 double pi{3.14159}; // 这种方式可以防止窄化转换 2. 变量的命名规则¶ 只能包含字母、数字和下划线 不能以数字开头 不能使用C++关键字（如int, class等） 区分大小写 建议使用有意义的名称（如studentCount而非sc） 3. 变量的作用域¶ 变量的作用域决定了它在程序中的可见范围： #include &lt;iostream&gt; int globalVar = 10; // 全局变量，整个程序可见 int main() { int localVar = 20; // 局部变量，只在main函数内可见 { int blockVar = 30; // 块作用域变量，只在这个代码块内可见 std::cout &lt;&lt; blockVar &lt;&lt; std::endl; } // std::cout &lt;&lt; blockVar &lt;&lt; std::endl; // 错误：blockVar在此不可见 std::cout &lt;&lt; globalVar &lt;&lt; std::endl; // 正确 std::cout &lt;&lt; localVar &lt;&lt; std::endl; // 正确 return 0; } 变量的存储位置：栈与堆¶ 栈(stack)：自动管理的内存区域，存储局部变量和函数调用信息。当变量超出作用域时自动释放。 堆(heap)：动态分配的内存区域，需要手动管理（分配和释放）。 #include &lt;iostream&gt; int main() { // 栈上分配的变量 int stackVar = 10; // 堆上分配的变量（使用new） int* heapVar = new int(20); std::cout &lt;&lt; &#34;栈变量: &#34; &lt;&lt; stackVar &lt;&lt; std::endl; std::cout &lt;&lt; &#34;堆变量: &#34; &lt;&lt; *heapVar &lt;&lt; std::endl; // 必须手动释放堆内存 delete heapVar; return 0; } 基本数据类型¶ C++提供了多种基本数据类型，它们的主要区别在于存储大小和表示的数值范围。 2.1 整型类型¶ 类型 大小(通常) 范围(通常) char 1字节 -128到127或0到255 short 2字节 -32,768到32,767 int 4字节 -2,147,483,648到2,147,483,647 long 4或8字节 取决于平台 long long 8字节 -9,223,372,036,854,775,808到9,223,372,036,854,775,807 示例： #include &lt;iostream&gt; #include &lt;climits&gt; // 包含各种数据类型的极限值 int main() { char smallNumber = 100; short mediumNumber = 30000; int largeNumber = 2000000000; long long veryLargeNumber = 9000000000000000000LL; std::cout &lt;&lt; &#34;char范围: &#34; &lt;&lt; CHAR_MIN &lt;&lt; &#34; 到 &#34; &lt;&lt; CHAR_MAX &lt;&lt; std::endl; std::cout &lt;&lt; &#34;int范围: &#34; &lt;&lt; INT_MIN &lt;&lt; &#34; 到 &#34; &lt;&lt; INT_MAX &lt;&lt; std::endl; return 0; } 浮点型类型¶ 类型 大小(通常) 精度 范围(通常) float 4字节 约7位有效数字 ±1.18×10^-38到±3.4×10^38 double 8字节 约15-16位有效数字 ±2.23×10^-308到±1.80×10^308 示例： #include &lt;iostream&gt; #include &lt;iomanip&gt; // 用于控制输出格式 int main() { float piFloat = 3.14159265358979323846f; double piDouble = 3.14159265358979323846; std::cout &lt;&lt; &#34;float PI: &#34; &lt;&lt; std::setprecision(10) &lt;&lt; piFloat &lt;&lt; std::endl; std::cout &lt;&lt; &#34;double PI: &#34; &lt;&lt; std::setprecision(10) &lt;&lt; piDouble &lt;&lt; std::endl; return 0; } 2.3 布尔类型¶ bool类型只有两个值：true(1)和false(0)。 #include &lt;iostream&gt; int main() { bool isCppFun = true; bool isFishy = false; std::cout &lt;&lt; &#34;C++有趣吗？ &#34; &lt;&lt; isCppFun &lt;&lt; std::endl; std::cout &lt;&lt; &#34;这可疑吗？ &#34; &lt;&lt; isFishy &lt;&lt; std::endl; // 布尔值在条件语句中最有用 if (isCppFun) { std::cout &lt;&lt; &#34;让我们继续学习C++!&#34; &lt;&lt; std::endl; } return 0; } 3. sizeof操作符¶ sizeof操作符用于确定数据类型或变量占用的内存大小（以字节为单位）。 #include &lt;iostream&gt; int main() { std::cout &lt;&lt; &#34;数据类型大小（字节）:&#34; &lt;&lt; std::endl; std::cout &lt;&lt; &#34;char: &#34; &lt;&lt; sizeof(char) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;short: &#34; &lt;&lt; sizeof(short) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;int: &#34; &lt;&lt; sizeof(int) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;long: &#34; &lt;&lt; sizeof(long) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;long long: &#34; &lt;&lt; sizeof(long long) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;float: &#34; &lt;&lt; sizeof(float) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;double: &#34; &lt;&lt; sizeof(double) &lt;&lt; std::endl; std::cout &lt;&lt; &#34;bool: &#34; &lt;&lt; sizeof(bool) &lt;&lt; std::endl; // 也可以用于变量 int x = 0; std::cout &lt;&lt; &#34;变量x的大小: &#34; &lt;&lt; sizeof(x) &lt;&lt; std::endl; return 0; } 注意：sizeof的结果可能因编译器和平台而异。例如，在32位和64位系统上，某些数据类型的大小可能不同。 4. 类型修饰符¶ C++提供了类型修饰符来改变基本类型的含义： signed：有符号类型（默认） unsigned：无符号类型（仅非负数） short：短整型 long：长整型 #include &lt;iostream&gt; int main() { unsigned int positiveOnly = 4000000000; // 更大的正数范围 signed int normalInt = -2000000000; // 可以包含负数 short int smallNumber = 30000; // 节省空间 long int bigNumber = 2000000000; // 更大的范围 std::cout &lt;&lt; &#34;无符号整数: &#34; &lt;&lt; positiveOnly &lt;&lt; std::endl; std::cout &lt;&lt; &#34;有符号整数: &#34; &lt;&lt; normalInt &lt;&lt; std::endl; return 0; } 5. 类型转换¶ C++中有时需要将一种类型转换为另一种类型： 5.1 隐式类型转换¶ int i = 42; double d = i; // 隐式将int转换为double 5.2 显式类型转换（C风格）¶ double pi = 3.14159; int approxPi = (int)pi; // 显式转换，丢失小数部分 5.3 C++风格的类型转换¶ double pi = 3.14159; int approxPi = static_cast&lt;int&gt;(pi); // 更安全的C++风格转换 6. 常量¶ 使用const关键字声明不可修改的变量： const double PI = 3.141592653589793; const int MAX_STUDENTS = 100; // PI = 3.14; // 错误：不能修改常量 C++11引入了constexpr，表示编译时常量： 7. auto关键字（C++11）¶ auto让编译器自动推断变量类型： auto x = 5; // x是int auto y = 3.14; // y是double auto z = &#34;Hello&#34;; // z是const char* // 特别适用于复杂类型 std::vector&lt;std::string&gt; names = {&#34;Alice&#34;, &#34;Bob&#34;}; auto it = names.begin(); // it的类型是std::vector&lt;std::string&gt;::iterator 总结¶ 本章介绍了C++中的变量和基本数据类型，包括： 变量的声明、初始化和作用域 基本数据类型：整型、浮点型和布尔型 使用sizeof操作符获取类型大小 类型修饰符和类型转换 常量的使用 C++11的auto关键字 理解这些基础概念对于后续学习C++编程至关重要。在下一章中，我们将探讨运算符和表达式，这是操作这些变量的基本工具。",
+                    excerpt: "变量与基本数据类型",
+                    url: "01.html",
+                    date: "2024-03-21",
+                    tags: ["c++", "编程", "教程"]
+                },
+                
+                {
+                    title: "欢迎来到shisuiyi's博客",
+                    content: "这是我的第一篇博客文章。这个博客使用纯静态生成器构建，注重简洁和可读性。 Markdown 功能展示¶ 1. 代码块¶ def hello_world(): print(&#34;Hello, World!&#34;) 2. 列表¶ 无序列表： - 简洁的设计 - 快速的加载 - 优秀的可读性 有序列表： 1. 首页展示 2. 文章页面 3. 响应式设计 3. 引用¶ 简约而不简单 -- 设计理念 4. 表格¶ 功能 支持情况 Markdown ✅ 代码高亮 ✅ 响应式 ✅ 黑暗模式 🚧 5. 图片示例¶ 总结¶ 这个博客系统虽然简单，但是包含了所有必要的功能，足以满足日常写作需求。",
+                    excerpt: "这是我的第一篇博客文章。这个博客使用纯静态生成器构建，注重简洁和可读性。",
+                    url: "hello-world.html",
+                    date: "2024-03-20",
+                    tags: ["未分类"]
+                },
+                
+                {
+                    title: "关于我",
+                    content: "个人简介¶ 你好，我是师不语，一名热爱技术的开发者。我专注于以下领域： Python 后端开发 Web 前端开发 人工智能应用 技术写作分享 技术栈¶ 后端开发¶ Python | Django | Flask Node.js | Express MySQL | MongoDB Redis | Elasticsearch 前端开发¶ HTML5 | CSS3 | JavaScript Vue.js | React Webpack | Vite TailwindCSS 开发工具¶ Git | GitHub Docker | Kubernetes Linux | Nginx VS Code | PyCharm 项目经历¶ 个人博客系统¶ 基于 Python 的静态博客生成器 支持 Markdown 写作 自动代码高亮 响应式设计 深色模式支持 其他开源项目¶ 项目名称：项目描述 项目名称：项目描述 学习分享¶ 我坚持通过博客分享技术经验和学习心得，主要包括： 编程技术教程 项目开发实践 技术选型分析 学习方法总结 联系方式¶ GitHub: shisuiyi Email: your.email@example.com RSS: 订阅博客更新 写在最后¶ 感谢访问我的博客。如果你对我的文章或项目有任何建议，欢迎通过以上方式与我联系。 编程不只是代码，更是一种思维方式。",
+                    excerpt: "你好，我是师不语，一名热爱技术的开发者。我专注于以下领域：",
+                    url: "about.html",
+                    date: "2024-03-20",
+                    tags: ["未分类"]
+                }
+                
+            ];
+
+            // 防抖函数
+            function debounce(func, wait) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            }
+
+            // 搜索函数
+            function performSearch(query, type) {
+                query = query.toLowerCase();
+                return posts.filter(post => {
+                    switch (type) {
+                        case 'title':
+                            return post.title.toLowerCase().includes(query);
+                        case 'content':
+                            return post.content.toLowerCase().includes(query);
+                        case 'tag':
+                            return post.tags.some(tag => tag.toLowerCase().includes(query));
+                        default:
+                            return false;
+                    }
+                });
+            }
+
+            // 高亮匹配文本
+            function highlightText(text, query) {
+                if (!query) return text;
+                const regex = new RegExp(`(${query})`, 'gi');
+                return text.replace(regex, '<span class="search-highlight">$1</span>');
+            }
+
+            // 显示搜索结果
+            function displayResults(results, query) {
+                if (results.length === 0) {
+                    searchResults.innerHTML = '<div class="search-result-item">没有找到相关内容</div>';
+                } else {
+                    searchResults.innerHTML = results.map(post => `
+                        <div class="search-result-item">
+                            <a href="${post.url}" class="search-result-title">
+                                ${highlightText(post.title, query)}
+                            </a>
+                            <div class="search-result-meta">${post.date}</div>
+                            <div class="search-result-excerpt">
+                                ${highlightText(post.excerpt || post.content.slice(0, 150) + '...', query)}
+                            </div>
+                        </div>
+                    `).join('');
+                }
+                
+                searchResults.style.display = 'block';
+                postsList.style.display = 'none';
+            }
+
+            // 监听搜索输入
+            const debouncedSearch = debounce((query, type) => {
+                if (query.length < 2) {
+                    searchResults.style.display = 'none';
+                    postsList.style.display = 'block';
+                    return;
+                }
+                const results = performSearch(query, type);
+                displayResults(results, query);
+            }, 300);
+
+            searchInput.addEventListener('input', (e) => {
+                debouncedSearch(e.target.value, searchType.value);
+            });
+
+            searchType.addEventListener('change', () => {
+                debouncedSearch(searchInput.value, searchType.value);
+            });
+
+            // 点击外部关闭搜索结果
+            document.addEventListener('click', (e) => {
+                if (!searchResults.contains(e.target) && 
+                    !searchInput.contains(e.target) && 
+                    !searchType.contains(e.target)) {
+                    searchResults.style.display = 'none';
+                    if (searchInput.value.length < 2) {
+                        postsList.style.display = 'block';
+                    }
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html> 

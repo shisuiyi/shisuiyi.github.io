@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签 - 师不语的个人博客</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="stylesheet" href="/styles/main.css">
+    
+</head>
+<body>
+    <!-- 抽屉菜单 -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <div class="drawer" id="drawer">
+        <div class="drawer-header">
+            <div class="drawer-title">师不语的个人博客</div>
+            <button class="drawer-close" id="drawerClose">
+                <span class="material-icons-round">close</span>
+            </button>
+        </div>
+        <nav class="drawer-nav">
+            <a href="/" class="drawer-item ">
+                <span class="drawer-icon material-icons-round">home</span>
+                <span class="drawer-text">首页</span>
+            </a>
+            <a href="/about.html" class="drawer-item ">
+                <span class="drawer-icon material-icons-round">person</span>
+                <span class="drawer-text">关于</span>
+            </a>
+            <a href="/tags.html" class="drawer-item active">
+                <span class="drawer-icon material-icons-round">local_offer</span>
+                <span class="drawer-text">标签</span>
+            </a>
+        </nav>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <button class="menu-button" id="menuButton">
+                    <span class="material-icons-round">menu</span>
+                </button>
+                <div class="header-text">
+                    <h1><a href="/">师不语的个人博客</a></h1>
+                    <p>一个简洁的静态博客</p>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="material-icons-round light-icon">light_mode</span>
+                    <span class="material-icons-round dark-icon">dark_mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        
+<div class="tags-page">
+    <h1>标签云</h1>
+    <div class="tags-cloud">
+        
+        <a href="#c++" class="tag-item" style="font-size: 1.0rem">
+            c++ <span class="tag-count">1</span>
+        </a>
+        
+        <a href="#教程" class="tag-item" style="font-size: 1.0rem">
+            教程 <span class="tag-count">1</span>
+        </a>
+        
+        <a href="#未分类" class="tag-item" style="font-size: 1.1rem">
+            未分类 <span class="tag-count">2</span>
+        </a>
+        
+        <a href="#编程" class="tag-item" style="font-size: 1.0rem">
+            编程 <span class="tag-count">1</span>
+        </a>
+        
+    </div>
+    
+    <div class="tags-list">
+        
+        <section id="c++" class="tag-section">
+            <h2>c++</h2>
+            <ul>
+                
+                <li>
+                    <time>2024-03-21</time>
+                    <a href="01.html">C++编程入门：变量与基本数据类型</a>
+                </li>
+                
+            </ul>
+        </section>
+        
+        <section id="教程" class="tag-section">
+            <h2>教程</h2>
+            <ul>
+                
+                <li>
+                    <time>2024-03-21</time>
+                    <a href="01.html">C++编程入门：变量与基本数据类型</a>
+                </li>
+                
+            </ul>
+        </section>
+        
+        <section id="未分类" class="tag-section">
+            <h2>未分类</h2>
+            <ul>
+                
+                <li>
+                    <time>2024-03-20</time>
+                    <a href="hello-world.html">欢迎来到shisuiyi's博客</a>
+                </li>
+                
+                <li>
+                    <time>2024-03-20</time>
+                    <a href="about.html">关于我</a>
+                </li>
+                
+            </ul>
+        </section>
+        
+        <section id="编程" class="tag-section">
+            <h2>编程</h2>
+            <ul>
+                
+                <li>
+                    <time>2024-03-21</time>
+                    <a href="01.html">C++编程入门：变量与基本数据类型</a>
+                </li>
+                
+            </ul>
+        </section>
+        
+    </div>
+</div>
+
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>关于博客</h3>
+                    <p>一个简洁的静态博客，专注于分享技术文章和个人见解。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速导航</h3>
+                    <ul class="footer-nav">
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/about.html">关于</a></li>
+                        <li><a href="/tags.html">标签</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://github.com/shisuiyi" target="_blank" rel="noopener">
+                                <span class="material-icons-round">code</span>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:your.email@example.com">
+                                <span class="material-icons-round">email</span>
+                                <span>Email</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/feed.xml" target="_blank" rel="noopener">
+                                <span class="material-icons-round">rss_feed</span>
+                                <span>RSS</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 师不语 - Built with Static Blog Generator</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 移动端导航栏 -->
+    <nav class="mobile-nav">
+        <a href="/" class="mobile-nav-item ">
+            <span class="material-icons-round mobile-nav-icon">home</span>
+            <span>首页</span>
+        </a>
+        <a href="/tags.html" class="mobile-nav-item active">
+            <span class="material-icons-round mobile-nav-icon">local_offer</span>
+            <span>标签</span>
+        </a>
+        <a href="/about.html" class="mobile-nav-item ">
+            <span class="material-icons-round mobile-nav-icon">person</span>
+            <span>关于</span>
+        </a>
+    </nav>
+
+    
+    <script>
+        // 抽屉菜单功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const drawer = document.getElementById('drawer');
+            const drawerOverlay = document.getElementById('drawerOverlay');
+            const menuButton = document.getElementById('menuButton');
+            const drawerClose = document.getElementById('drawerClose');
+
+            function openDrawer() {
+                drawer.classList.add('open');
+                drawerOverlay.classList.add('visible');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeDrawer() {
+                drawer.classList.remove('open');
+                drawerOverlay.classList.remove('visible');
+                document.body.style.overflow = '';
+            }
+
+            menuButton.addEventListener('click', openDrawer);
+            drawerClose.addEventListener('click', closeDrawer);
+            drawerOverlay.addEventListener('click', closeDrawer);
+        });
+
+        // 主题切换功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            // 从 localStorage 获取保存的主题
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else if (prefersDark.matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+            
+            // 更新按钮状态
+            function updateThemeToggle() {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                themeToggle.classList.toggle('dark', currentTheme === 'dark');
+            }
+            
+            updateThemeToggle();
+            
+            // 切换主题
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateThemeToggle();
+            });
+            
+            // 监听系统主题变化
+            prefersDark.addListener((e) => {
+                if (!localStorage.getItem('theme')) {
+                    document.documentElement.setAttribute(
+                        'data-theme',
+                        e.matches ? 'dark' : 'light'
+                    );
+                    updateThemeToggle();
+                }
+            });
+        });
+
+        // 代码块处理
+        document.querySelectorAll('.highlight').forEach(block => {
+            // 获取代码语言
+            const codeElement = block.querySelector('code');
+            let lang = 'text';
+            
+            // 尝试从代码元素的类名中获取语言
+            if (codeElement) {
+                // 调试日志
+                console.log('Code element:', codeElement);
+                console.log('Code classes:', codeElement.className);
+                
+                // 首先检查代码块的父元素是否有语言标识
+                const parentClasses = block.parentElement?.className.split(' ') || [];
+                for (const cls of parentClasses) {
+                    if (cls.startsWith('language-')) {
+                        lang = cls.replace('language-', '');
+                        break;
+                    }
+                }
+                
+                // 如果没找到，检查代码元素自身的类名
+                if (lang === 'text') {
+                    const classes = codeElement.className.split(' ');
+                    for (const cls of classes) {
+                        if (cls.startsWith('language-')) {
+                            lang = cls.replace('language-', '');
+                            break;
+                        }
+                    }
+                }
+                
+                // 如果还是没找到，尝试从代码内容判断
+                if (lang === 'text') {
+                    const content = codeElement.textContent.trim();
+
+                    // C++特征检测（优先）
+                    if (
+                        content.includes('#include') ||
+                        content.includes('using namespace') ||
+                        content.includes('std::') ||
+                        content.includes(' class ') ||
+                        content.includes(' struct ') ||
+                        content.includes('template<') ||
+                        content.includes('//') ||
+                        content.includes('/*')
+                    ) {
+                        lang = 'cpp';
+                    }
+                    // Python特征检测
+                    else if (
+                        content.includes('def ') ||
+                        content.includes('print(') ||
+                        content.includes('import ') ||
+                        /^#\s.*$/m.test(content) ||
+                        content.includes('class ') ||
+                        content.includes('return ') ||
+                        content.includes('True') ||
+                        content.includes('False') ||
+                        content.includes('None')
+                    ) {
+                        lang = 'python';
+                    }
+                    // 添加其他语言检测...
+                }
+            }
+            
+            // 设置语言标识
+            block.setAttribute('data-lang', lang);
+            
+            // 创建复制按钮
+            const button = document.createElement('button');
+            button.className = 'copy-button';
+            button.textContent = '';
+            
+            // 添加复制功能
+            button.addEventListener('click', async () => {
+                const code = block.querySelector('pre').textContent;
+                try {
+                    await navigator.clipboard.writeText(code);
+                    button.classList.add('copied');
+                    setTimeout(() => {
+                        button.classList.remove('copied');
+                    }, 2000);
+                } catch (err) {
+                    console.error('Failed to copy:', err);
+                }
+            });
+            
+            // 将按钮添加到代码块
+            block.appendChild(button);
+        });
+
+        // 搜索功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const searchType = document.getElementById('searchType');
+            const searchResults = document.getElementById('searchResults');
+            const postsList = document.getElementById('postsList');
+            
+            if (!searchInput) return;
+
+            // 所有文章数据
+            const posts = [
+                
+            ];
+
+            // 防抖函数
+            function debounce(func, wait) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            }
+
+            // 搜索函数
+            function performSearch(query, type) {
+                query = query.toLowerCase();
+                return posts.filter(post => {
+                    switch (type) {
+                        case 'title':
+                            return post.title.toLowerCase().includes(query);
+                        case 'content':
+                            return post.content.toLowerCase().includes(query);
+                        case 'tag':
+                            return post.tags.some(tag => tag.toLowerCase().includes(query));
+                        default:
+                            return false;
+                    }
+                });
+            }
+
+            // 高亮匹配文本
+            function highlightText(text, query) {
+                if (!query) return text;
+                const regex = new RegExp(`(${query})`, 'gi');
+                return text.replace(regex, '<span class="search-highlight">$1</span>');
+            }
+
+            // 显示搜索结果
+            function displayResults(results, query) {
+                if (results.length === 0) {
+                    searchResults.innerHTML = '<div class="search-result-item">没有找到相关内容</div>';
+                } else {
+                    searchResults.innerHTML = results.map(post => `
+                        <div class="search-result-item">
+                            <a href="${post.url}" class="search-result-title">
+                                ${highlightText(post.title, query)}
+                            </a>
+                            <div class="search-result-meta">${post.date}</div>
+                            <div class="search-result-excerpt">
+                                ${highlightText(post.excerpt || post.content.slice(0, 150) + '...', query)}
+                            </div>
+                        </div>
+                    `).join('');
+                }
+                
+                searchResults.style.display = 'block';
+                postsList.style.display = 'none';
+            }
+
+            // 监听搜索输入
+            const debouncedSearch = debounce((query, type) => {
+                if (query.length < 2) {
+                    searchResults.style.display = 'none';
+                    postsList.style.display = 'block';
+                    return;
+                }
+                const results = performSearch(query, type);
+                displayResults(results, query);
+            }, 300);
+
+            searchInput.addEventListener('input', (e) => {
+                debouncedSearch(e.target.value, searchType.value);
+            });
+
+            searchType.addEventListener('change', () => {
+                debouncedSearch(searchInput.value, searchType.value);
+            });
+
+            // 点击外部关闭搜索结果
+            document.addEventListener('click', (e) => {
+                if (!searchResults.contains(e.target) && 
+                    !searchInput.contains(e.target) && 
+                    !searchType.contains(e.target)) {
+                    searchResults.style.display = 'none';
+                    if (searchInput.value.length < 2) {
+                        postsList.style.display = 'block';
+                    }
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html> 
